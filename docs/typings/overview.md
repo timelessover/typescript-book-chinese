@@ -73,17 +73,17 @@ interface Name {
 }
 
 let name: Name;
-name = {
+myname = {
   first: 'John',
   second: 'Doe'
 };
 
-name = {
+myname = {
   // Error: 'Second is missing'
   first: 'John'
 };
 
-name = {
+myname = {
   // Error: 'Second is the wrong type'
   first: 'John',
   second: 1337
